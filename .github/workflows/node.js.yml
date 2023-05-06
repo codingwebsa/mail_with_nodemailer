@@ -5,7 +5,8 @@ name: mail_with_nodemailer
 
 on:
   schedule:
-  - cron: "0 * * * *"
+  - cron: "14 * * * *"
+
   workflow_dispatch:
   
 env:
